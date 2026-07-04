@@ -1,0 +1,395 @@
+
+/* -------------------------------------------------------------
+   1) IMPORTAR TIPOGRAFÍAS (OBLIGATORIO SEGÚN LA CONSIGNA)
+-------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@700&display=swap');
+
+/* -------------------------------------------------------------
+   2) HEADER
+-------------------------------------------------------------- */
+.header {
+    background-color: #f3f3f3;
+    width: auto;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.negrita1{
+    font-family: 'Coiny';
+    font-size: 40px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.navegacion{
+    display: inline-block;
+    margin: 40px 40px 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    margin-right: 90px;
+    font-size: 26px;
+}
+
+body{
+    background-color: #f3f3f3;
+    width: auto;
+    
+    
+}
+
+/* -------------------------------------------------------------
+   3) PRESENTACIÓN
+-------------------------------------------------------------- */
+/* Principal */ /*TEXTO A LA IZQUIERDA E IMAGEN A LA DERECHA*/
+
+main{
+    background-color: #f3f3f3;
+    width: auto;
+    margin-bottom: 50px;
+    display: flex;               /* 🔹 IMPORTANTE */
+    justify-content: space-between;
+    gap: 15%;       /* 🔹 ESPACIO ENTRE TEXTO E IMAGEN */      
+    align-items: center;         /* Centra verticalmente */
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.contenedor{
+    width: 50%;               /* 🔹 OCUPA LA MITAD DEL ANCHO DEL MAIN */
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+
+}
+
+.negrita2{
+    font-family: 'Coiny';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contenedor h2{
+    display: table;
+    margin-bottom: 0;
+    background-color: #f3f3f3;
+
+}
+
+.marcador{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: yellow;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.contenedor p{
+    display: inline-block;
+}
+
+/* FOTO */
+
+.primeraFoto{
+    margin-right: 0;
+    width: 60%;               /* 🔹 OCUPA LA MITAD DEL ANCHO DEL MAIN */
+}
+
+.imagen-principal{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* -------------------------------------------------------------
+   3) ASIDE IZQUIERDA
+-------------------------------------------------------------- */
+/*CAJA1 IZQUIERDA Y  CAJA2 DERECHA*/
+
+aside{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;       /* 🔹 ESPACIO ENTRE LAS DOS CAJAS */
+    align-items: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    
+}
+
+.caja1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin: 0;
+}
+
+.marcador1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    background-color: yellow;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.caja2 p{
+    font-family: 'montserrat', sans-serif;
+    font-size: 26px;
+    margin: 0;
+}
+
+.marcador2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    background-color: yellow;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*LINEA DIVISORIA*/
+
+.linea{
+    width: auto;
+    height: 3px;
+    background-color: #5c5757;
+    margin-top: 6%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 6%;
+    
+}
+
+/*-------------------------------------------------------------
+   4) IMAGEN DESTACADA
+-------------------------------------------------------------- */
+.seccion2{
+    background-color: #f3f3f3;
+    width: auto;
+    margin-bottom: 50px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 9%;
+    margin-right: 9%;
+
+}
+.segundaFoto{
+    width: 40%;
+    margin-left: 0;               /* 🔹 OCUPA LA MITAD DEL ANCHO DEL ASIDE */
+    display: inline-block;
+    margin-right: 20%;
+    
+   
+}
+.imagen-secundaria{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+
+.lista{
+    width: 37%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin-right: 0;
+    display: inline-block
+    
+}
+
+.lista h2{
+    margin-top: 0;
+    background-color: #f3f3f3;
+    display: inline-block;
+}
+
+.lista ol li {
+    line-height: 1.6;
+    margin-bottom: 10px; /* separa cada ítem */
+    margin-right: 0;
+   
+}
+
+.lista ol {
+    list-style: decimal; /* por si funciona */
+    padding-left: 0;
+    margin-right: 0;
+    display: inline-block;
+   
+}
+
+.marcador3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    background-color: yellow;
+    padding: 10px 15px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.marcador3 .num {
+    margin-left: -55px;
+    background-color: yellow;
+    padding: 15px 21px;
+    padding-bottom: 17px;
+
+}
+
+/*LINEA DIVISORIA*/
+
+.linea1{
+    width: auto;
+    height: 3px;
+    background-color: #5c5757;
+    margin-top: 6%;
+    margin-bottom: 5px;
+    
+}
+
+/*FORMULARIO*/
+
+.section3{
+    background-color: #f3f3f3;      /* como la imagen */
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;      /* texto arriba, no centrado */
+    padding: 60px 80px;
+    box-sizing: border-box;
+    gap: 80px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.contenedor-formulario{
+    width: 45%;
+    text-align: left;
+}
+
+.section3 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    background-color: black;
+    color: white;
+    display: inline-block;
+
+
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.section3 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 0;
+}
+
+.formulario2{
+    width: 45%;
+}
+
+.formulario2 label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.formulario2 input,
+.formulario2 textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.formulario2 input[type="submit"],
+.formulario2 input[type="reset"]{
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    width: auto;
+}
+
+.formulario2 input[type="reset"]{
+    margin-right: 0;
+    float: right;
+
+}
+.formulario2 input[type="submit"]:hover,
+.formulario2 input[type="reset"]:hover{
+    opacity: 0.85;
+}
+
+/*REDES SOCIALES*/
+.iconos{
+    background-color: #f3f3f3;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 18%;
+    
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: yellow;
+    width: auto;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+footer .resaltar{
+    font-family: 'Coiny', sans-serif;
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
